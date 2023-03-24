@@ -1,0 +1,356 @@
+body{
+    background-color:#e9ecef;
+    }
+    .nava{
+        margin-left: 200px;
+        gap: 20px;
+    }
+    img{
+        width: 400px;
+        height: 450px;
+    }
+    .page1{
+        background-image: url(bar.jpg);
+        background-position: center;
+        background-color:rgb(12, 12, 12) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    #icon{
+        width: 20px;
+        height: 20px;
+    }
+    #N{
+        color: blue;
+    }
+    .nava{
+        gap: 30px;
+    }
+    .nav{
+        padding: 20px;
+        display: flex;
+        gap: 30px;
+    }
+    a{
+        color: white;
+    }
+    .par1{
+        padding-top: 200px;
+        margin-left: 400px;
+        color: white;
+    }
+    h{
+        font-size: 40px;
+    }
+    #but{
+        display: flex;
+        background-color: white;
+        color: black;
+        gap: 20px;
+        border-radius: 20px;
+        border: none;
+        
+    }
+    .search{
+        display: flex;
+        background-color: blue;
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+    .butt{
+        display: flex;
+        gap:none;
+        padding: 5%;
+    }
+    button{
+        margin: 50px,100px ;
+        border-color: blue;
+        color: white;
+        font-size: 20px;
+        background-color: blue;
+        border-radius: 5%;
+        border: none;
+    }
+    #p{
+        font-weight: bold;
+    }
+    .page2{
+        margin-left: 200px;
+        
+    }
+    .pag{
+        display: flex;
+        gap: 50px;
+    }
+    #burj{
+        background-image: url(ship.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+        width: 300px;
+        color: white;
+    }
+    #west{
+        background-image: url(westoin.jpg);
+        height: 400px;
+        width: 300px;
+        text-align-last: bottom;
+        color: white;
+    }
+    #taj{
+        background-image: url(jap.jpg);
+        height: 400px;
+        width: 300px;
+        color: white;
+    }
+    .meal{
+        display: flex;
+        gap: 40px;
+        color: rgb(33, 173, 166);
+        padding: 10%;
+    }
+    /* .meal1{
+        display: flex;
+        gap: 60px;
+        color: rgb(27, 215, 221);
+    } */
+    #icon1{
+        width: 250px;
+        height: 300px;
+    }
+    .icon2{
+        background-color: white;
+    }
+    .page3{
+        margin-left: 400px;
+    }
+    h1{
+        font-size: 40px;
+        font-weight: 100px;
+    }
+    .room1{
+        display: flex;
+        gap: 20px;
+        padding: 2%;
+    }
+    .page4{
+        margin-left: 400px;
+    }
+    .ml{
+        display: flex;
+        gap: 50px;
+    }
+    .foods{
+        display: flex;
+        gap: 20px;
+        padding: 2%;
+    }
+    #head{
+        width: 80px;
+        height: 100px;
+    }
+    .head2{
+        display: flex;
+        gap: 10px;
+        /* margin-left: 00px;  */
+    }
+    .head3{
+        background-color: white;
+        /* width: 00px; */
+        /* margin-left: 10px; */
+    }
+    #P{
+        margin-left: 50PX;
+    }
+    #arrow{
+        gap: 30px;
+        padding: 20px;
+        display: flex;
+        width: 35px;
+        height: 40px;
+    }
+    .page5{
+        display: flex;
+    }
+    .arrows{
+        display: flex;
+        gap: 30px;
+        margin-right: 100px;
+    }
+    .row{
+        margin-right: 200px;
+    
+    }
+    .button2{
+        gap:50px;
+        margin-left: 100px;
+    }
+    #why{
+        margin-left: 450px;
+    }
+    .page6{
+        background-color: rgb(48, 73, 214);
+        border-top-right-radius: 20%;
+        border-top-left-radius: 20%;
+        background-size: cover;
+        color: white;
+        border: none;
+    }
+    .sent{
+        margin-left: 400px;
+        padding: 30px;
+    }
+    .footer{
+        display: flex;
+        gap: 100px;
+        margin-left: 50px;
+    }
+    #img2{
+        width: 50px;
+        height: 80px;
+    }
+     
+    @media all and (max-width: 500px) {
+        .nava{
+            margin-left: 0px;
+            gap: 5px;
+        }
+        img{
+            width: 50px;
+            height: 100px;
+        } 
+        #icon{
+            width: 10px;
+            height: 15px;
+        }
+        .nav{
+            padding: 5px;
+            gap: 10px;
+        } 
+        .par1{
+            padding-top: 20px;
+            margin-left: 8px;
+        }
+        h{
+            font-size: 20px;
+        }
+        #but{
+            gap: 10px;
+            border-radius: 20px;
+        }
+        .butt{
+    margin: none;
+            /* margin-right: 30px; */
+            /* padding: 5%; */
+        }
+        button{
+            margin: 40px,60px ;
+            font-size: 10px;
+            border-radius: 5%;
+        }
+        .pag{
+            gap: 10px;
+        }
+        .page2{
+            margin-left: 10px;
+            
+        }#burj{
+            height: 300px;
+            width: 200px;
+        }
+        #west{
+            height: 300px;
+            width: 200px;
+        }
+        #taj{
+           
+            height: 300px;
+            width: 200px;
+        }
+        .meal{
+            gap: 5px;
+            padding: 1%;
+            font-size: 10px;
+        }
+        #icon1{
+            width: 40px;
+            height: 60px;
+        }
+        .page3{
+            margin-left: 80px;
+        }
+        h2{
+            font-size: 14px;
+        }
+        h1{
+            font-size: 20px;
+            font-weight: 100px;
+        }
+        .room1{
+            gap: 10px;
+            padding: 2%;
+        }
+        .page4{
+            margin-left: 80px;
+        }
+        .ml{
+            gap: 30px;
+        }
+        .foods{
+            gap: 10px;
+            padding: 2%;
+        }
+        #head{
+            width: 50px;
+            height: 70px;
+        }
+        .head2{
+            gap: 10px;
+            /* margin-right: 500px; */
+        }
+         .head3{
+           
+        } 
+        P{
+            /* margin-left: 20PX;*/
+            font-size: 10px;
+        }
+        #arrow{
+            gap: 5px;
+            width: 20px;
+            height: 40px;
+        }
+        .arrows{
+            gap: 5px;
+            /* margin-right: 50px; */
+        }
+        
+        .button2{
+            margin-left: 5px;
+            gap:5px;
+            display: flex;
+        }
+        #why{
+            margin-left: 50px;
+            font-size:14px ;
+        }
+        .page6{
+            border-top-right-radius: 20%;
+            border-top-left-radius: 20%;
+    
+        }
+        .sent{
+            margin-left: 0px;
+            padding: 0px;
+        }
+        .footer{
+            gap: 10px;
+            margin-left: 0px;
+        }
+        .row{
+            margin-right: 150px;
+        }
+        
+    }
+    
