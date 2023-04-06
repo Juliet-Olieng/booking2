@@ -1,8 +1,12 @@
  
 body{
+    grid-template-columns: 1fr,2fr;
     font-size: large;
     background-color:#e9ecef;
-}
+}       img{
+    width: 50px;
+    height: 100px;
+} 
 #N{
     color: blue;
 }
@@ -43,12 +47,12 @@ body{
     padding-top: 50px;
 }
 img{
-    width: 400px;
-    height: 500px;
+    width:100px;
+    height:200px;
 }
 #img2{
-    width: 250px;
-    height: 250px;
+    width: 50px;
+    height: 80px;
 }
 .allimages{
     margin-left: 50px;
@@ -116,13 +120,20 @@ input{
     margin-left: 300px;
 }
 @media all and (max-width: 500px){
+    body{
+        grid-template-columns: 1fr;
+    }
+    label{
+        background-size: 5px;
+
+    }
     .nava{
         margin-left: 0px;
         gap: 5px;
     }
     img{
-        width: 50px;
-        height: 30px;
+        width: 120px;
+        height: 50px;
     } 
     #icon{
         width: 10px;
@@ -138,6 +149,19 @@ input{
     .story{
         gap: 10px;
     }
+    .footer1{
+        gap: 10px;
+    }
+    .conta{
+        margin-left: 5px;
+    }
+    .form{
+        gap: 10px;
+    }
+    input{
+        margin: 5px;
+        padding: 1%;
+}
 }
 
     

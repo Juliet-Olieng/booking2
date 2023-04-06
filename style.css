@@ -6,10 +6,11 @@ body{
         gap: 20px;
     }
     img{
-        width: 400px;
-        height: 450px;
+        width: 90%;
+        height: 70%;
     }
     .page1{
+        opacity: 100%;
         background-image: url(bar.jpg);
         background-position: center;
         background-color:rgb(12, 12, 12) ;
@@ -212,6 +213,9 @@ body{
     }
      
     @media all and (max-width: 500px) {
+        body{
+            /* grid-template-columns: 2fr; */
+        }
         .nava{
             margin-left: 0px;
             gap: 5px;
@@ -240,9 +244,9 @@ body{
             border-radius: 20px;
         }
         .butt{
-    margin: none;
-            /* margin-right: 30px; */
-            /* padding: 5%; */
+            margin: none;
+            margin-right: 30px;
+            padding: 5%;
         }
         button{
             margin: 40px,60px ;
@@ -313,7 +317,7 @@ body{
            
         } 
         P{
-            /* margin-left: 20PX;*/
+            margin-left: 20PX;
             font-size: 10px;
         }
         #arrow{
@@ -323,7 +327,7 @@ body{
         }
         .arrows{
             gap: 5px;
-            /* margin-right: 50px; */
+            margin-right: 50px;
         }
         
         .button2{
